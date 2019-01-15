@@ -20,8 +20,9 @@ componentDidMount(){
           <p></p>
         </div>
       )
-    }
-    )
+    })
+    this.setState({tweets: tweets})
+    console.log("state", this.state.tweets)
   })
 }
 
